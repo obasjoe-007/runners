@@ -18,6 +18,7 @@ output "ami_id" {
   value       = data.aws_ami.amazon_linux.id
 }
 
+##Obasjoe in the house
 output "aws_region" {
   description = "AWS region where the instance was created"
   value       = var.aws_region
